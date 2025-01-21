@@ -1,0 +1,6 @@
+@RMI.LeadCallProxyAPI_HostAddress = http://localhost:5265
+
+GET {{RMI.LeadCallProxyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
