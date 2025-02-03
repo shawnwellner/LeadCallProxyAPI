@@ -4,6 +4,25 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>44564e3c-1085-433b-a8af-843fc48511a6</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="StorageBlob.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\shawnw\RESPONSE MINE INTERACTIVE\Fusion-Development - shawnw\Projects\RMI.LeadCallProxyAPI\RMI.LeadCallProxyAPI\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\shawnw\RESPONSE MINE INTERACTIVE\Fusion-Development - shawnw\Projects\RMI.LeadCallProxyAPI\RMI.LeadCallProxyAPI\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Runtime.Caching" Version="9.0.1" />
+  </ItemGroup>
 
 </Project>
